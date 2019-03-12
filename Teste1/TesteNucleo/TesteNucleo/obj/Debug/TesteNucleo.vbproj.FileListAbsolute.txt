@@ -1,0 +1,12 @@
+C:\Users\Alessandro\Desktop\TesteNucleo\TesteNucleo\TesteNucleo\bin\Debug\TesteNucleo.exe.config
+C:\Users\Alessandro\Desktop\TesteNucleo\TesteNucleo\TesteNucleo\bin\Debug\TesteNucleo.exe
+C:\Users\Alessandro\Desktop\TesteNucleo\TesteNucleo\TesteNucleo\bin\Debug\TesteNucleo.pdb
+C:\Users\Alessandro\Desktop\TesteNucleo\TesteNucleo\TesteNucleo\bin\Debug\TesteNucleo.xml
+C:\Users\Alessandro\Desktop\TesteNucleo\TesteNucleo\TesteNucleo\obj\Debug\TesteNucleo.vbprojAssemblyReference.cache
+C:\Users\Alessandro\Desktop\TesteNucleo\TesteNucleo\TesteNucleo\obj\Debug\TesteNucleo.Form1.resources
+C:\Users\Alessandro\Desktop\TesteNucleo\TesteNucleo\TesteNucleo\obj\Debug\TesteNucleo.Resources.resources
+C:\Users\Alessandro\Desktop\TesteNucleo\TesteNucleo\TesteNucleo\obj\Debug\TesteNucleo.vbproj.GenerateResource.cache
+C:\Users\Alessandro\Desktop\TesteNucleo\TesteNucleo\TesteNucleo\obj\Debug\TesteNucleo.vbproj.CoreCompileInputs.cache
+C:\Users\Alessandro\Desktop\TesteNucleo\TesteNucleo\TesteNucleo\obj\Debug\TesteNucleo.exe
+C:\Users\Alessandro\Desktop\TesteNucleo\TesteNucleo\TesteNucleo\obj\Debug\TesteNucleo.xml
+C:\Users\Alessandro\Desktop\TesteNucleo\TesteNucleo\TesteNucleo\obj\Debug\TesteNucleo.pdb
