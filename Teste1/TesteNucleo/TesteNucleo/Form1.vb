@@ -1,4 +1,5 @@
-﻿
+﻿Imports System.IO
+Imports System.Windows.Forms
 
 Public Class Form1
     Dim ARQUIVO As String
@@ -8,13 +9,24 @@ Public Class Form1
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Dim dialog As DialogResult
 
+        dialog = MessageBox.Show("Tem certeza que deseja fechar a aplicação ?", "Exit", MessageBoxButtons.YesNo)
+
+        If dialog = DialogResult.No Then
+
+        Else
+            Application.Exit()
+        End If
     End Sub
 
     Private Sub ButtonAbrirArquivoLog_Click(sender As Object, e As EventArgs) Handles ButtonAbrirArquivoLog.Click
 
-        TextBoxTextoLog.Text = Ler_Arquivo(ARQUIVO, 1)
-
+        Using sr As New StreamReader("C:\Users\Alessandro\Desktop\TesteNucleo\Teste1\TesteNucleo\Log_AAAAMMDD.txt")
+            Do While sr.Peek <> -1
+                TextBoxTextoLog.Text = TextBoxTextoLog.Text & sr.ReadLine & vbNewLine
+            Loop
+        End Using
     End Sub
 
     Function Ler_Arquivo(ByRef ARQUIVO As String, ByRef LINHA As Integer) As String
