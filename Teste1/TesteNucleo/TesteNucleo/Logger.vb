@@ -6,7 +6,7 @@ Public NotInheritable Class Logger
     End Sub
 
     ' Calcula o nome do arquivo de log
-    Private Shared LogArquivo As String = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\TesteNucleo\TesteNucleo\Log_AAAAMMDD.txt"
+    Private Shared LogArquivo As String = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\TesteNucleo\Teste1\TesteNucleo\TesteNucleo\Log\Log_AAAAMMDD.txt"
 
     ' Escreve a data e hora atual mais a linha de texto no arquivo de log
     Public Shared Sub RegistraEvento(texto As String)

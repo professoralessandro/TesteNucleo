@@ -5,7 +5,11 @@ Public Class Form1
     Dim ARQUIVO As String
 
     Private Sub ButtonLogarTexto_Click(sender As Object, e As EventArgs) Handles ButtonLogarTexto.Click
+
         Logger.RegistraEvento(TextBoxTextoLog.Text)
+
+        TextBoxTextoLog.Clear()
+
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
@@ -22,7 +26,7 @@ Public Class Form1
 
     Private Sub ButtonAbrirArquivoLog_Click(sender As Object, e As EventArgs) Handles ButtonAbrirArquivoLog.Click
 
-        Using sr As New StreamReader("C:\Users\Alessandro\Desktop\TesteNucleo\Teste1\TesteNucleo\Log_AAAAMMDD.txt")
+        Using sr As New StreamReader("C:\Users\Alessandro\Desktop\TesteNucleo\Teste1\TesteNucleo\TesteNucleo\Log\Log_AAAAMMDD.txt")
             Do While sr.Peek <> -1
                 TextBoxTextoLog.Text = TextBoxTextoLog.Text & sr.ReadLine & vbNewLine
             Loop
